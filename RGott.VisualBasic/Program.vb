@@ -1,13 +1,17 @@
 Public Class Program
 
+    Public Shared Function Add(a As Integer, b As Integer)
+        Return a + b
+    End Function
+
+
     ''' <summary>
     ''' Prints Message
     ''' </summary>
     ''' <param name="message">message to print</param>
     ''' <returns>Language Name</returns>
-    Public Function Run(message As String) As String
+    Public Sub Run(message As String)
         Console.WriteLine(message + " -From VisualBasic")
-        Return "VisualBasic"
-    End Function
+    End Sub
 
 End Class
